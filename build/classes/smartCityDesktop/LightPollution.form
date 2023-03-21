@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="302" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jButton1" pref="143" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" pref="38" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Back"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="106" max="-2" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="353" max="-2" attributes="0"/>
+                  <EmptySpace pref="120" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="16" max="32767" attributes="0"/>
+                  <Component id="jTextField1" min="-2" pref="43" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jTextField1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="cc" type="rgb"/>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="               Noise Pollution"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="null"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="14" style="0"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Sound is main means of communication in many animals, including humans. A low sound is pleasant&#xa;and harmless. A loud, unpleasant or unwanted sound is called as noise. A given sound can appear music to&#xa;some and noise to others. It depends upon loudness, duration and mood of a person.&#xa;Noise (La. nausea=seasickness) is physical form of pollution. It is not harmful to air, soil and water but&#xa;affects the animals including humans. Noise is unwanted sound, that is unpleasant, loud and disruptive.&#xa;Humans have a hearing range called as audible range. Audible range depends upon frequency and&#xa;loudness of sound. For a person with normal hearing, frequency ranges from 20 to 20,000 Hz and&#xa;loudness ranges from 0 to 120 dB. Sound is measured in decibels (dB). A decibel value above 80 is&#xa;considered to be noise pollution.&#xa;&#xa;Effects of noise pollution&#xa;Human response to noise varies from man to man according to age and temperament. It may vary even in&#xa;the same individual from time to time because of change in health, fatigue and other conditions (Fig). The&#xa;effects of noise on human beings are as under:-&#xa;1) Auditory effects: It includes deafness or auditory fatigue.&#xa;Deafness or impaired hearing: Prolonged exposures to noise lead to gradual deterioration of internal ear&#xa;and subsequently hearing loss or deafness. It may occur due to continuous exposure to noise level of more&#xa;than 90 dB. It may be temporary or permanent. Explosions or other high intensity sounds can also cause&#xa;immediate deafness by rupturing the ear drums or damaging the cochlea. Many time hearing loss is&#xa;attributed to occupation.&#xa;Auditory fatigue: It is defined as a temporary loss of hearing after exposure to sound. Continuous humming&#xa;sound such as whistling and buzzing in the ears.&#xa;2) Non auditory effects: These are:-&#xa;Irritation and annoyance: Noise, sometimes, leads to emotional disturbances and makes people loose&#xa;their temper. It can interfere with proper rest and sleep. Annoyance seems to increase with the loudness of&#xa;the sound.&#xa;Work efficiency: It has been observed that noise reduces the efficiency of work.&#xa;Physiological effects: It includes dilation of the pupils, paling of skin, tensing of voluntary muscles,&#xa;diminishing of gastric secretions, increase in diastolic blood pressure and the sudden injection of adrenalins&#xa;&#xa;into blood stream which increases neuromuscular tension, nervousness, irritability and anxieties. It can&#xa;adversely affect the development of unborn babies.&#xa;Other health effects: Noise is also associated with headache, giddiness, sweating, nausea, fatigue,&#xa;difficulty in breathing, disturbed sleep pattern, psychological stress.&#xa;Trouble Communicating: High decibel noise can put trouble and may not allow people to communicate&#xa;freely. Constant sharp noise can give you severe headache and disturb your emotional balance.&#xa;Effect on Animals: Animals rely heavily on sounds to communicate, to find food, avoid predators etc. Pets&#xa;react more aggressively due to exposure to constant noise. They become disoriented more easily and face&#xa;many behavioral problems. Overexposure to high intensity of noise affects the hearing ability of many&#xa;animals. Man-made noise affects mating calls and echolocation. This leads to reduction in survival and&#xa;reproduction rates. At an ecosystem level, noise pollution could lead to migration of animals. Their&#xa;migration can affect the crop production. Because many animals such as bats pollinate bananas, peaches,&#xa;agave and other cash crops.&#xa;Effect on non-living things: The noise booms cause cracks in walls of buildings as well as in hills. Sonic&#xa;boom can break window panes and buildings."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
